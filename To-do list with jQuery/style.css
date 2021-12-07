@@ -2,10 +2,18 @@ h1 {
   color: #1abc9c;
 }
 
+#mylist {
+  max-width: 200px;
+}
+
+#mylist li:after {
+  clear: both;
+}
+
 .rem {
-  margin-left: 5px;
   background-color: white;
   color: red;
   border: none;
   cursor: pointer;
+  float: right;
 }
