@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Invoice CoolHax Labs</title>
+</head>
+
+<body>
+  <button class="print-button" onclick="window.print();"> PRINT INVOICE </button>
+
+  <div class="container print-container">
+    <div class="brand-section">
+      <div class="row">
+        <div class="col-6">
+          <h1> <img class="company-logo" src="assets/logo.png" alt="company logo"> </h1>
+        </div>
+        <div class="col-6">
+          <div class="company-details">
+            <img class="bar-code" src="assets/samplebarcode.png" alt="bar code">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-section">
+      <div class="row">
+        <div class="col-6">
+          <p class="heading">Customer Name: Apple Customers Inc</p>
+          <p class="heading">Project Manager: Daniel Radcliff </p>
+          <p class="heading">Customer ID : 0012342</p>
+          <p class="heading">Product SKU : 287</p>
+          <p class="heading">Product Name : iMac 2020</p>
+        </div>
+        <div class="col-6">
+          <p class="heading">Created On : 12/12/2021 </p>
+          <p class="heading">Time 12:43 PM</p>
+          <p class="heading">Created By : Martha Struart </p>
+          <p class="heading">Quantity : 5005</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="body-section">
+      <br>
+      <table class="table-bordered">
+        <thead>
+          <tr class="table-row">
+            <th> SKU </th>
+            <th class="table-head"> Name </th>
+            <th class="table-head"> Description </th>
+            <th class="table-head"> QTY </th>
+            <th class="table-head"> Image </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-row">
+            <td>128</td>
+            <td>RAM</td>
+            <td>Some Basic
+              Description Goes
+              here</td>
+            <td>5005</td>
+            <td><img src="#" alt="alt of img tag"> </td>
+          </tr>
+          <tr>
+            <td>137</td>
+            <td>SSD</td>
+            <td>Some Basic
+              Description Goes
+              here</td>
+            <td>5005</td>
+            <td><img src="#" alt="alt of img tag"> </td>
+          </tr>
+
+        </tbody>
+      </table>
+      <br>
+
+      <textarea class="remarks" name="Remarks" rows="4" cols="50">
+  Remarks:
+  </textarea>
+
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>

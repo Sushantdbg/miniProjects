@@ -1,0 +1,131 @@
+/* PRINTING CSS */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-continer, .print-container * {
+    visibility: visible;
+  }
+}
+
+.print-button {
+  height: 2rem;
+  margin-left: 47%;
+  margin-top: 2%;
+}
+
+/* TOP BRAND SECTION */
+.company-logo {
+  height: 3rem;
+}
+
+.brand-section {
+  background-color: #696969;
+  padding: 10px 40px;
+}
+
+.container {
+  margin-top: 2.5rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.bar-code {
+  height: 3.5rem;
+}
+
+/* BODY SEC */
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* CUSTOMER INFO SECTION */
+.col-6 {
+  width: 50%;
+  flex: 0 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company-details {
+  float: right;
+  text-align: right;
+}
+
+.body-section {
+  padding: 16px;
+  border: 1px solid gray;
+}
+
+.heading {
+  color: #262626;
+  margin-bottom: 05px;
+}
+
+/* TABLE CSS */
+.table-row {
+  border: 0;
+}
+
+table {
+  background-color: #fff;
+  width: 100%;
+  border-collapse: collapse;
+  min-height: 20rem;
+}
+
+thead {
+  border: 1px solid #111;
+  background-color: #f2f2f2;
+}
+
+table td {
+  vertical-align: middle !important;
+  text-align: center;
+}
+
+table th, table td {
+  padding-top: 08px;
+  padding-bottom: 08px;
+}
+
+.table-bordered {
+  box-shadow: 0px 0px 5px 0.5px gray;
+}
+
+.table-bordered td, .table-bordered th {
+  border: 1px solid #dee2e6;
+}
+
+.table-head {
+  width: 20%;
+}
+
+/* remarks */
+.remarks {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  width: 99.35%;
+  min-height: 10rem;
+  box-shadow: 0px 0px 5px 0.5px gray;
+}
