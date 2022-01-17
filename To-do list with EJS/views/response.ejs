@@ -4,21 +4,28 @@
 <head>
   <meta charset="utf-8">
   <title>TO DO WITH EJS</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <h1>It's a <%= kindOfDay %>!</h1>
 
-  <ul>
+  <div class="box" id="heading">
+    <h1>It's a <%= kindOfDay %>!</h1>
+  </div>
+
+  <div class="box">
     <%  for(var i=0;i<inputOfUser.length; i++){ %>
-    <li><%= inputOfUser[i] %></li>
+    <div class="item">
+      <input type="checkbox" />
+      <p><%= inputOfUser[i] %></p>
+    </div>
     <% } %>
-  </ul>
 
-  <form action="/" method="post">
-    <input type="text" name="newItem" value="">
-    <button type="submit" name="button">Add</button>
-  </form>
+    <form class="item" action="/" method="post">
+      <input type="text" name="newItem" placeholder="New Item" autocomplete="off" autofocus="on" value="">
+      <button type="submit" name="button">+</button>
+    </form>
+  </div>
 </body>
 
 </html>
