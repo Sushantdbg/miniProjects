@@ -8,16 +8,10 @@ function WholePage(){
   return(
     <>
     <Navbar />
-    <hr />
-    <br />
-    <hr />
-    <h1> Test text for indexjs</h1>
-    <hr />
+    <div className="body--except--navbar">
     <MainContent />
-    <hr />
     <Footer />
-    <hr />
-    <hr />
+    </div>
     </>
   )
 };

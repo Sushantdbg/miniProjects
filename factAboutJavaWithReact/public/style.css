@@ -1,37 +1,67 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Inter, sans-serif;
+  background-image: url("/bglogo.png");
+  background-repeat: no-repeat;
+  background-color: #585858;
+  margin: 0;
+  font-family: Inter, sans-serif;
 }
 
+/* NAVIGATION BAR CSS */
 nav {
-    display: flex;
-    align-items: center;
-    background-color: #000;
-    height: 90px;
-    padding: 30px 25px;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 90px;
+  padding: 30px 25px;
 }
 
 .nav--logo_text, .nav--title {
-    margin: 0;
+  margin: 0;
 }
 
 .nav--logo_text {
-    margin-right: auto;
-    color: #61DAFB;
-    font-weight: 700;
-    font-size: 33.33px;
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 33.33px;
 }
 
 .nav--title {
-    color: #DEEBF8;
-    font-weight: 600;
+  color: white;
+  font-weight: 600;
 }
 
 .nav--icon {
-    height: 69px;
-    margin-right: 7px;
+  height: 69px;
+  margin-right: 7px;
+}
+
+/* MAIN CONTENT CSS */
+.body--title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.body--except--navbar {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+ul>li {
+  font-size: 24px;
+  font-weight: 510;
+}
+
+/* FOOTER CSS */
+.footer--text {
+  font-size: 14px;
+  position: absolute;
+  text-align: center;
+  bottom: 3%;
+  color: white;
 }
