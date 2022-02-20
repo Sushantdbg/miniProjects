@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import Topimg from "./Topimg";
 import MainContent from "./MainContent";
 import Footer from "./Footer";
