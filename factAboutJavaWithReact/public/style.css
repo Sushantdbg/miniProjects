@@ -4,10 +4,12 @@
 
 body {
   background-image: url("/bglogo.png");
-  background-repeat: no-repeat;
   background-color: #585858;
+  background-position: right 100px;
+  background-size: 16px;
   margin: 0;
   font-family: Inter, sans-serif;
+  color: white;
 }
 
 /* NAVIGATION BAR CSS */
@@ -25,6 +27,7 @@ nav {
 
 .nav--logo_text {
   margin-right: auto;
+  margin-left: 1rem;
   color: #61DAFB;
   font-weight: 700;
   font-size: 33.33px;
@@ -36,32 +39,46 @@ nav {
 }
 
 .nav--icon {
-  height: 69px;
+  height: 60px;
   margin-right: 7px;
 }
 
 /* MAIN CONTENT CSS */
 .body--title {
+  letter-spacing: -0.125rem;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .body--except--navbar {
-  margin-left: 50px;
-  margin-top: 30px;
-  margin-right: 50px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 3rem;
 }
 
 ul>li {
-  font-size: 24px;
+  padding: .25rem 0 .25rem 0;
+  font-size: 2rem;
   font-weight: 510;
+  list-style: none;
+}
+
+ul li::before {
+  content: "•";
+  color: #40E0D0;
+  margin-right: .5rem;
+  font-size: 2.5rem;
 }
 
 /* FOOTER CSS */
+.footer--content {
+  margin-top: 3.33rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .footer--text {
   font-size: 14px;
-  position: absolute;
-  text-align: center;
-  bottom: 3%;
   color: white;
 }
