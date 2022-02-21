@@ -1,2 +1,2 @@
 # miniProjects
-# Please start this repository as you clone/fork; Thank You 😊
+# Please star this repository as you clone/fork; Thank You 😊
