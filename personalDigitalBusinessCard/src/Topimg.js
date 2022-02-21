@@ -1,10 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
 
 export default function Topimg(){
   return(
-    <>
-    <h1>  This is text in Topimg()</h1>
-    </>
+    <div className="top--div">
+    <img src={process.env.PUBLIC_URL + '/pfp.jpg'} className="top--img" />
+    </div>
   )
 }

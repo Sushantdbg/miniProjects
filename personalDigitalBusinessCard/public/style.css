@@ -1,4 +1,49 @@
-.footer--text{
-
-  font-size:  6.9rem;
+/* EXPERIMENTAL */
+/* this is hotfix for the margin in between the different sections
+caused due the h2 and the p tags */
+h2, p {
+  margin: 0;
 }
+
+/* GOD LEVEL CSS */
+.the--website {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: auto;
+  max-width: 580px;
+  background-color: #23252C;
+  color: white;
+}
+
+.the--content {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+/* TOP IMAGE SECTION */
+.top--div {}
+
+.top--img {
+  width: 100%;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+/* MAIN CONTENT SECTION */
+.main--all {
+  background-color: #1A1B21;
+}
+
+.main--img {
+  width: 33px;
+}
+
+/* FOOTER SECTION  */
+.footer--all {
+  background-color: #161619;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+.footer--img{
+  width: 50px;
+}
+
+.footer--text {}
