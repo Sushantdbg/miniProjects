@@ -8,4 +8,4 @@ function Main(){
   )
 }
 
-ReactDOM.render(<Main /> , document.getElementbyId("root"));
+ReactDOM.render(<Main /> , document.getElementById("root"));
