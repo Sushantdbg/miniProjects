@@ -12,6 +12,7 @@ h2, p {
   margin: auto;
   max-width: 580px;
   background-color: #23252C;
+  font-family: Inter, sans-serif;
   color: white;
 }
 
@@ -33,16 +34,51 @@ h2, p {
   background-color: #1A1B21;
 }
 
-.main--img {
-  width: 33px;
+.personal--text {
+  text-align: center;
 }
 
+.name--text {
+  font-size: 2rem;
+}
+
+.main--img {
+  width: 33px;
+  margin-right: 10px;
+  /* padding-bottom: 8px; */
+}
+
+.button {
+  min-width: 120px;
+}
+
+/* .button--email {
+  margin-left: 33%;
+}
+
+.button--linkedin {
+  margin-right: 33%;
+} */
+/*
+.email-text{
+  margin-left: 10px;
+}
+.link-text{
+  margin-left: 10px;
+} */
+/* .button-email{
+  margin-left: 25px;
+} */
 /* FOOTER SECTION  */
 .footer--all {
-  background-color: #161619;
+  background-color: #696969;
   border-radius: 0rem 0rem 1rem 1rem;
 }
-.footer--img{
+
+.footer--img {
+  /* background-color: #161619; */
+  border: 0 0 0 0;
+  padding: 0 0 0 0;
   width: 50px;
 }
 
