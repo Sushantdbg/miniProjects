@@ -5,8 +5,8 @@ export default function MainContent(){
     <div className="main--all">
     <div className="personal--text">
     <p className="name--text"> Sushant Kumar</p>
-    <p> Full Stack Developer</p>
-    <p> sushantdbg.in</p>
+    <p className="name--sp"> Full Stack Developer</p>
+    <p className="name-website"> sushantdbg.in</p>
     </div>
     <button type="button" className="btn btn-light button button--email "><img src={process.env.PUBLIC_URL + '/email.png'} className="main--img" /><span className="email-text">Email</span></button>
     <button type="button" className="btn btn-light button button--linkedin "><img src={process.env.PUBLIC_URL + '/linkedin.png'} className="main--img" /><span className="link-text">Linkedin</span></button>

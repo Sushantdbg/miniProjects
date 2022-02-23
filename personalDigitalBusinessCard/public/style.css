@@ -30,8 +30,24 @@ h2, p {
 }
 
 /* MAIN CONTENT SECTION */
+h2, p {
+  padding: 0 30px 0 30px;
+}
+
+h2 {
+  padding-top: 1.1rem;
+  /* padding-bottom: .2rem; */
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+p {
+  font-size: .85rem;
+}
+
 .main--all {
   background-color: #1A1B21;
+  padding-bottom: 1.5rem;
 }
 
 .personal--text {
@@ -39,7 +55,11 @@ h2, p {
 }
 
 .name--text {
+  /* margin-top: .8rem; */
+  /* this is wrong as it leads to gap b/w img and name */
+  padding-top: .8rem;
   font-size: 2rem;
+  font-weight: 700;
 }
 
 .main--img {
@@ -49,16 +69,23 @@ h2, p {
 }
 
 .button {
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
+  /* here we removed the margin so as to get the usage of padding top
+  universal for h2's */
   min-width: 120px;
 }
 
-/* .button--email {
-  margin-left: 33%;
+.button--email {
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .button--linkedin {
-  margin-right: 33%;
-} */
+  margin-right: 8%;
+  /* margin-left: 5%; */
+}
+
 /*
 .email-text{
   margin-left: 10px;
@@ -71,15 +98,21 @@ h2, p {
 } */
 /* FOOTER SECTION  */
 .footer--all {
+  /* margin-top:  3rem; */
   background-color: #696969;
+text-align: center;
   border-radius: 0rem 0rem 1rem 1rem;
 }
 
 .footer--img {
   /* background-color: #161619; */
   border: 0 0 0 0;
-  padding: 0 0 0 0;
+  padding: .33rem;
   width: 50px;
 }
+.footer--pivot{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 
+}
 .footer--text {}
